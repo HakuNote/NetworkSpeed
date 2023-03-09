@@ -13,6 +13,11 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Switch>
+        <Route path='/'>
+          <>
+            <Main />
+          </>
+        </Route>
         <Route path='/atm'>
           <Atom />
         </Route>
